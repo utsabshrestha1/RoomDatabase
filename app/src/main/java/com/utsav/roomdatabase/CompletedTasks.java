@@ -24,6 +24,7 @@ public class CompletedTasks extends AppCompatActivity {
 
         recyclerView = findViewById(R.id.recyclerview_tasksCompleted);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        //hello world
 
         buttonAddTask = findViewById(R.id.floating_button_addCompleted);
         buttonAddTask.setOnClickListener(new View.OnClickListener() {
